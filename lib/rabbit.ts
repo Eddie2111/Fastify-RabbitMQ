@@ -1,4 +1,4 @@
-import { Connection, Channel } from 'rabbitmq-client'; // Replace with actual import
+import { Connection, Channel } from 'rabbitmq-client';
 
 class RabbitMQConnection {
   private static instance: RabbitMQConnection;
